@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'BRActivityIndicatorView', :exclusive => true do
+  pod "BRActivityIndicatorView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "BRActivityIndicatorView", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
