@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BRActivityIndicatorView/BRActivityIndicatorView.h>
 
 @interface BRViewController : UIViewController
+
+@property (nonatomic) IBOutlet UILabel *label;
+@property (nonatomic) IBOutlet UILabel *percent;
+@property (nonatomic) BRActivityIndicatorView *activityIndicator;
 
 @end
