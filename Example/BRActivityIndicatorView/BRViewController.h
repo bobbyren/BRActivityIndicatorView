@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <BRActivityIndicatorView/BRActivityIndicatorView.h>
+#import <BRActivityIndicatorView.h>
 
 @interface BRViewController : UIViewController
 

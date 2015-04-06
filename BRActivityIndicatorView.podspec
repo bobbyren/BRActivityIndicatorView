@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "BRActivityIndicatorView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of BRActivityIndicatorView."
+  s.summary          = "Custom progress bar in ActivityIndicatorView."
   s.description      = <<-DESC
                        An optional longer description of BRActivityIndicatorView
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BRActivityIndicatorView"
+  s.homepage         = "https://github.com/bobbyren/BRActivityIndicatorView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "mitrenegade" => "bobbyren@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BRActivityIndicatorView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/bobbyren/BRActivityIndicatorView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
